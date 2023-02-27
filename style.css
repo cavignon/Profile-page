@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@200;700&display=swap');
+
+body {
+  background-color: #f7eee3;
+  }
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #fbd266;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.hover:hover {
+  color: #d76735;
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#button-gold {
+  background-color: #fbd266;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 700;
+}
+
+.blue {
+  color: #8fb0a9;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px slategrey;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
